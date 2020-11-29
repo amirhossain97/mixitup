@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mixitup</title>
+    
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    
+   
+    <button type="button" data-filter="all">All</button>
+    <button type="button" data-filter=".category-a">Image two</button>
+    <button type="button" data-filter=".category-b">Image two</button>
+    <button type="button" data-filter=".category-c">Image three</button>
+   
+
+    <div class="container">
+        <div class="mix category-a" data-order="1">
+            <img src="img/download (1).jpg" alt=""/>
+        </div>
+        <div class="mix category-b" data-order="2">
+            <img src="img/download (2).jpg" alt=""/>
+        </div>
+        <div class="mix category-b category-c" data-order="3">
+            <img src="img/download.jpg" alt=""/>
+        </div>
+        <div class="mix category-a  category-b category-c" data-order="4">
+            <img src="img/images.jpg" alt=""/>
+        </div>
+    </div>
+
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
